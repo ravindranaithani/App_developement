@@ -10,5 +10,5 @@ def find_largest_num(first_number,second_number,third_number):
   max = max(list)
   return max
 
-st.write(" This number is largest:" , find_largest_number(first_number, second_number,third_number))
+st.write(" This number is largest:" , find_largest_num(first_number, second_number,third_number))
   
