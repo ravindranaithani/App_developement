@@ -6,10 +6,10 @@ second_number = st.number_input('Enter Second Number')
 third_number = st.number_input('Enter Third Number')
 
 def find_largest_num(first_number,second_number,third_number):
-  max = 0
+  max_value = 0
   list = [first_number,second_number,third_number]
-  max += max(list)
-  return max
+  max_value = max(list)
+  return max_value
 
 st.write(" This number is largest:" , find_largest_num(first_number, second_number,third_number))
   
